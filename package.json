@@ -1,0 +1,28 @@
+{
+  "name": "catvote-api",
+  "version": "1.0.0",
+  "description": "Voting of cats API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilkiss/catvote-api.git"
+  },
+  "keywords": [
+    "voting",
+    "cats",
+    "api"
+  ],
+  "author": "Bilkiss Dulloo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilkiss/catvote-api/issues"
+  },
+  "homepage": "https://github.com/Bilkiss/catvote-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
