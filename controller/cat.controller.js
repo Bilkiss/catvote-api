@@ -5,7 +5,9 @@ exports.cat_list = function (req, res) {
     if(err)
       console.log(err);
     else{
-      res.json(data);
+      var resultStr = data.toString();
+      var resultObj = JSON.parse(resultStr);
+      res.json(resultObj);
       console.log(data.toString());
     }
 
